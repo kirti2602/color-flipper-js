@@ -11,4 +11,5 @@ button.addEventListener('click', function(){
    }
     colorSpan.innerText = hexCodeValue;
     document.body.style.backgroundColor = hexCodeValue;
+    
 })
