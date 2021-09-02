@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+
+:root{
+    --nav-bgcolor: white;
+    --nav-color: #3DB2FF;
+    --body-bgcolor : #FFEDDA;
+    --h1-color: #FFEDDA;
+    --h1-bgcolor: black;
+    --span-color: #3DB2FF;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--body-bgcolor);
+
+}
+nav{
+    background-color: var(--nav-bgcolor);
+    color: var(--nav-color);
+    padding: 0.2rem;
+    font-weight: lighter;
+    box-shadow: 0.5px 0.5px 30px black;
+}
+
+nav h3{
+    margin-left: 30px;
+}
+
+div{
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+div h1{
+    border: 1px solid black;
+    display: inline-block;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 0.3rem;
+    background-color: var(--h1-bgcolor);
+    color: var(--h1-color);
+    
+}
+
+h1 span{
+    color: var(--span-color);
+}
+
+div button{
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: block;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    border-color: var(--h1-bgcolor);
+    background-color: var(--body-bgcolor);
+    border-radius: 0.3rem;
+}
+
+button:hover{
+    background-color: var(--h1-bgcolor);
+    color: var(--h1-color);
+    cursor: pointer;
+}
